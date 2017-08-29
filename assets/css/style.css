@@ -1,0 +1,12 @@
+#bootstrap-overrides {
+	background-color: #ddd;
+}
+
+#bootstrap-overrides .btn {
+	margin: 0 15px 15px 15px;
+}
+
+#form-div {
+	width: 50%;
+}
+
