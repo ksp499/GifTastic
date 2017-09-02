@@ -10,3 +10,12 @@
 	width: 50%;
 }
 
+#main {
+	margin-top: 20px;
+} 
+
+.item {
+	display: block;
+	float: left;
+	margin: 0px 20px 10px 0;
+}

@@ -9,18 +9,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- bootstrap -->
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+
   </head>
+  
   <body id='bootstrap-overrides'>
 	<div class='container'>
 
 	  	<!-- space for animal-buttons -->
 		<div id='animal-buttons'></div>
-		
+	
+		<div class='row' id='main'>
 
-		<div class='row'>
-			<div class='col-xs-9'></div>
+			<!-- where loaded gifs go -->
+			<div class='col-xs-9' id='for-gif'></div>
+
+			<!-- form to add new animal-button -->
 			<div class='col-xs-3'>
-					<!-- form to add new animal-button -->
 					<form id='animal-form'>
 				      <label for='animal-input'>Add a Movie Bro</label>
 				      <br>
@@ -30,15 +34,8 @@
 				      <input id="add-animal" type="submit" value="Submit">
 				    </form>
 			</div>
-
 		</div>
-
-	
-
 	</div>
-
-
-
 
     <!-- js -->
     <script src="assets/javascript/giphy.js"></script>
