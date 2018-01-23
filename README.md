@@ -9,7 +9,7 @@ GIPHY API is called to load images and Javascript & jQuery are used to change th
 
 ***
 
-![GifTastic - Main Page](assets/images/main_page.png)
+![GifTastic - Main Page](assets/images/main-page.png)
 
 Main Page
 
